@@ -1,4 +1,4 @@
-pipelineJob('tsunami') {
+pipelineJob('glt-tsunami') {
   definition {
     cpsScm {
         scm {
