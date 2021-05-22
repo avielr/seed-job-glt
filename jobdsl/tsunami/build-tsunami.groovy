@@ -1,4 +1,4 @@
-pipelineJob('glt-tsunami') {
+pipelineJob('1.Build-glt-tsunami') {
   definition {
     cpsScm {
         scm {
@@ -8,7 +8,7 @@ pipelineJob('glt-tsunami') {
             }
           }
         }
-        scriptPath("Jenkinsfile")
+        scriptPath("Jenkinsfile-custom-dockerfile")
     }
   }
 }
