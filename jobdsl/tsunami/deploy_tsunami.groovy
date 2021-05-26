@@ -4,6 +4,7 @@ pipelineJob('2_Deploy_glt_tsunami') {
         scm {
           git {
             remote {
+              branch('glt/tests')
               url ('https://github.com/avielr/tsunami-glt-pipelines.git')
             }
           }
