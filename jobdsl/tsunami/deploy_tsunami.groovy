@@ -9,7 +9,7 @@ pipelineJob('2_Deploy_glt_tsunami') {
             }
           }
         }
-        scriptPath("Jenkinsfile-deploy")
+        scriptPath("Jenkinsfile-deploy-declerative")
     }
   }
 }
