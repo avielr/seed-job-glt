@@ -3,6 +3,7 @@ pipelineJob('1_Build_glt_tsunami') {
     cpsScm {
         scm {
           git {
+            branch('glt/tests')
             remote {
               url ('https://github.com/avielr/tsunami-glt-pipelines.git')
             }
