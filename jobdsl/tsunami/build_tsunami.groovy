@@ -5,7 +5,7 @@ pipelineJob('1_Build_glt_tsunami') {
           git {
             branch('glt/tests')
             remote {
-              url ('https://github.com/avielr/tsunami-glt-pipelines.git')
+              url ('https://github.com/avielr/tsunami-pipelines.git')
             }
           }
         }
